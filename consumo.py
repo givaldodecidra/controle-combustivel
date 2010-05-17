@@ -3,13 +3,6 @@
 
 from __future__ import print_function
 
-# há uma regra em Python (pep8) de não usar mais do que 80 caracteres
-# em uma linha. veja como fica mais enxuto quebrando a linha:
-
-# melhor usar nomes de variáveis que tenham algum significado. o
-# entendimento de kmI ou r não é tão imediato quanto km_inicial e
-# km_rodados
-
 ## pega o valor da kilometragem inicial do carro
 km_inicial = float(raw_input("Digite a kilometragem inicial: "))
 
@@ -32,15 +25,6 @@ valor_pago = valor * litros
 consumo = km_rodados / litros
 
 print("Informações:")
-
-# print('Kilometragem Inicial:', km_inicial, 'km')
-# print('Kilometragem Final:', km_final, 'km')
-# print('Valor do combustível: R$', valor)
-# print('Quantidade de Lítros de combustível:', litros, 'lt')
-
-# compara com a formatação de strings que usei. para saber mais
-# procure por python string format no google
-
 print("Quilometragem inicial: {0} km\nQuilometragem final: {1} km".format(km_inicial, km_final))
 print("Valor do combustível: R$ {0}\nLitros de combustível: {1} l".format(valor, litros))
 
