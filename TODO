@@ -1,0 +1,12 @@
+#-*- mode: org; -*-
+
+* A fazer
+- Refatorar resultados para padrões tipo 0,00 e não 0,00000
+
+* Implementar
+- Banco de dados
+
+* Futuro
+- Relatório com consumo mensal
+- Gráfico de autonomia do combustível
+- Gráfico com relatório mensal
